@@ -1,5 +1,15 @@
+/*
+===========
+Font
+===========
+*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
+/*
+=================
+  Reset Browser
+=================
+*/
 *{
 	box-sizing: border-box;
 	margin: 0;
@@ -16,6 +26,11 @@ body{
 	justify-content: center;
 }
 
+/*
+================
+ Container Main
+================
+*/
 .container{
 	background: white;
 	max-width: 350px; min-height: 40vh;
@@ -39,11 +54,21 @@ main h2::before{
 	background: linear-gradient(45deg, #8e2de2 , #4a00e0);
 }
 
+/*
+========
+  Form
+========
+*/
 form{
 	display: flex;
 	flex-direction: column;
 }
 
+/*
+================
+ Fieldset Input
+================
+*/
 .input-field{
 	position: relative;
 }
@@ -105,6 +130,11 @@ form input[type="submit"]:hover{
 	background: linear-gradient(to right, #8e2de2 , #4a00e0);
 }
 
+/*
+==========
+  Footer
+==========
+*/
 .footer{
 	display: flex;
 	flex-direction: column;
